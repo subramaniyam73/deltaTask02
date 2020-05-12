@@ -1,0 +1,596 @@
+canvas{
+  z-index: 1;
+  background-color: #272727;
+}
+body{
+  text-align: center;
+}
+
+.touchPad{
+  opacity: 0;
+  z-index: -1;
+  height: 65%;
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  left: 0;
+}
+
+.modeChooser{
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #272727;
+  left: 0;
+  top: 0;
+}
+#easy{
+  height: 10%;
+  width: 25%;
+  background-color: #272727;
+  border-color: white;
+  border:solid white 10px;
+  position: absolute;
+  top: 50%;
+  left: 4%;
+  font-size: 200%;
+  color: white;
+  font-weight: 700;
+  border-radius: 15%;
+}
+#medium{
+  height: 10%;
+  width: 25%;
+  background-color: #272727;
+  border-color: white;
+  border:solid white 10px;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  font-size: 200%;
+  color: white;
+  font-weight: 700;
+  border-radius: 15%;
+
+}
+
+#hard{
+  height: 10%;
+  width: 25%;
+  background-color: #272727;
+  border-color: white;
+  border:solid white 10px;
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  font-size: 200%;
+  color: white;
+  font-weight: 700;
+  border-radius: 15%;
+
+
+}
+#modeTitle{
+  font-size: 600%;
+  height: 30%;
+  width: 70%;
+  position: absolute;
+  top: 10%;
+  text-align: center;
+  left: 15%;
+  animation-name: fntclr;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  font-family: 'Righteous', cursive;
+}
+#canvas{
+  position: absolute;
+  left: 0;
+  top:0;
+}
+@keyframes colorss{
+
+	0%{color:white;border-color:white;}
+  25%{color:#FF0181;border-color:#FF0181;}
+	50%{color:#900DFF;border-color: #900DFF;}
+	75%{color:#32DBF0;border-color: #32DBF0;}
+  100%{color:#FAE100;border-color: #FAE100;}
+}
+
+#easy:hover,#medium:hover,#hard:hover,#pause:hover,#resume:hover,#newGame:hover,#newGame2:hover,#startGame:hover
+{
+	transform: scale(1.3);
+	animation-name:colorss;
+	animation-duration: 1s;
+	animation-iteration-count:infinite;
+}
+.gameButtons{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+#pause{
+  height: 8%;
+  width: 15%;
+  background-color: #272727;
+  border-color: white;
+  border:solid white 7px;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  font-size: 200%;
+  color: white;
+  font-weight: 500;
+  border-radius: 15%;
+}
+#resume{
+  height: 8%;
+  width: 15%;
+  background-color: #272727;
+  border-color: white;
+  border:solid white 7px;
+  position: absolute;
+  top: 27%;
+  left: 5%;
+  font-size: 200%;
+  color: white;
+  font-weight: 500;
+  border-radius: 15%;
+}
+#newGame2{
+  height: 15%;
+  width: 15%;
+  background-color: #272727;
+  border-color: white;
+  border-radius: 15%;
+  border:solid white 7px;
+  font-size: 200%;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+
+}
+#newGame{
+  height: 10%;
+  width: 30%;
+  background-color: #272727;
+  border-color: white;
+  border:solid white 10px;
+  font-size: 200%;
+  font-weight: 700;
+  position: absolute;
+  top: 70%;
+  left:35%;
+  border-radius: 20%;
+  color: white;
+}
+#topScore{
+  width: 25%;
+  height: 50%;
+  position: absolute;
+  right: 6%;
+  top: 15%;
+  font-size: 225%;
+  font-weight: 700;
+}
+#heading{
+  color: white;
+  display: inline-block;
+  width: 100%;
+  float: left;
+  font-family: 'Righteous', cursive;
+
+}
+#heading2{
+  color: white;
+  display: inline-block;
+  width: 100%;
+  float: left;
+  font-family: 'Righteous', cursive;
+
+}
+#value,#value2{
+  color: red;
+  display: inline-block;
+  width: 100%;
+  float: left;
+  font-family: 'Righteous', cursive;
+
+
+}
+.noHover{
+  pointer-events: none;
+
+}
+.resultsPage{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #272727;
+  color: white;
+}
+.best3{
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  top: 2%;
+  left: 30%;
+
+}
+#heading3{
+  margin-bottom: 2%;
+}
+#v1,#v2,#v3,#v4,#v5,#heading3{
+  width: 100%;
+  float: left;
+  font-size: 300%;
+  font-weight: 700;
+  font-family: 'Righteous', cursive;
+}
+#heading3{
+  color: red;
+}
+#canvas2{
+  background-color: #272727;
+}
+.colorSwitchTitle{
+  font-size: 600%;
+  height: 20%;
+  width: 70%;
+  position: absolute;
+  top: 10%;
+  text-align: center;
+  left: 15%;
+  animation-name: fntclr;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  font-family: 'Righteous', cursive;
+}
+.startPage{
+  width: 100%;
+  height: 100%;
+  background-color: #272727;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+}
+@keyframes fntclr {
+
+  0%{color:white;}
+  25%{color:#FF0181;}
+	50%{color:#900DFF;}
+	75%{color:#32DBF0;}
+  100%{color:#FAE100;}
+
+}
+
+#startGame{
+  height: 10%;
+  width: 30%;
+  background-color: #272727;
+  border-color: white;
+  border:solid white 10px;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  top: 75%;
+  left:35%;
+  border-radius: 20%;
+  color: white;
+
+}
+button{
+font-family: 'Orbitron', sans-serif;
+
+}
+@media screen and (max-width: 1024px) and (min-width:320px) {
+  canvas{
+    z-index: 1;
+    background-color: #272727;
+  }
+  body{
+    text-align: center;
+  }
+  .modeChooser{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #272727;
+    left: 0;
+    top: 0;
+  }
+  #easy{
+    height: 10%;
+    width: 70%;
+    background-color: #272727;
+    border-color: white;
+    border:solid white 6px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    font-size: 200%;
+    color: white;
+    font-weight: 600;
+    border-radius: 15%;
+  }
+  #medium{
+    height: 10%;
+    width: 70%;
+    background-color: #272727;
+    border-color: white;
+    border:solid white 6px;
+    position: absolute;
+    top: 63%;
+    left: 15%;
+    font-size: 200%;
+    color: white;
+    font-weight: 600;
+    border-radius: 15%;
+
+  }
+
+  #hard{
+    height: 10%;
+    width: 70%;
+    background-color: #272727;
+    border-color: white;
+    border:solid white 6px;
+    position: absolute;
+    top: 76%;
+    right: 15%;
+    font-size: 200%;
+    color: white;
+    font-weight: 600;
+    border-radius: 15%;
+
+
+  }
+  #modeTitle{
+    font-size: 400%;
+    height: 45%;
+    width: 100%;
+    position: absolute;
+    top: 3%;
+    text-align: center;
+    left: 0;
+    animation-name: fntclr;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-family: 'Righteous', cursive;
+  }
+  #canvas{
+    position: absolute;
+    left: 0;
+    top:0;
+  }
+  @keyframes colorss{
+
+  	0%{color:white;border-color:white;}
+    25%{color:#FF0181;border-color:#FF0181;}
+  	50%{color:#900DFF;border-color: #900DFF;}
+  	75%{color:#32DBF0;border-color: #32DBF0;}
+    100%{color:#FAE100;border-color: #FAE100;}
+  }
+
+  #easy:hover,#medium:hover,#hard:hover,#pause:hover,#resume:hover,#newGame:hover,#newGame2:hover,#startGame:hover
+  {
+  	transform: scale(1.3);
+  	animation-name:colorss;
+  	animation-duration: 1s;
+  	animation-iteration-count:infinite;
+  }
+  .gameButtons{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+  }
+  #pause{
+    height: 5%;
+    width: 25%;
+    background-color: #272727;
+    border-color: white;
+    border:solid white 4px;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    font-size: 100%;
+    color: white;
+    font-weight: 500;
+    border-radius: 15%;
+  }
+  #resume{
+    height: 5%;
+    width: 25%;
+    background-color: #272727;
+    border-color: white;
+    border:solid white 4px;
+    position: absolute;
+    top: 9%;
+    left: 2%;
+    font-size: 100%;
+    color: white;
+    font-weight: 500;
+    border-radius: 15%;
+  }
+  #newGame2{
+    height: 10%;
+    width: 25%;
+    background-color: #272727;
+    border-color: white;
+    border-radius: 15%;
+    border:solid white 4px;
+    font-size: 100%;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    top: 16%;
+    left: 2%;
+
+  }
+  #newGame{
+    height: 10%;
+    width: 70%;
+    background-color: #272727;
+    border-color: white;
+    border:solid white 6px;
+    font-size: 200%;
+    font-weight: 600;
+    position: absolute;
+    top: 5%;
+    left:15%;
+    border-radius: 15%;
+    color: white;
+  }
+  #topScore{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+  }
+  #heading{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    height: 30%;
+    font-size: 60%;
+    font-weight: 500;
+    float: left;
+    font-family: 'Righteous', cursive;
+
+  }
+  #heading2{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    height: 30%;
+    font-size: 60%;
+    font-weight: 500;
+    float: left;
+    font-family: 'Righteous', cursive;
+
+  }
+  #value,#value2{
+    color: red;
+    display: inline-block;
+    width: 100%;
+    height: 20%;
+    font-size: 60%;
+    font-weight: 500;
+    float: left;
+    font-family: 'Righteous', cursive;
+
+
+  }
+  .noHover{
+    pointer-events: none;
+
+  }
+  .resultsPage{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #272727;
+    color: white;
+  }
+  .best3{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+
+  }
+  #heading3{
+    margin-bottom: 2%;
+  }
+  #v1,#v2,#v3,#v4,#v5,#heading3{
+    width: 100%;
+    float: left;
+    font-size: 250%;
+    font-weight: 700;
+    font-family: 'Righteous', cursive;
+  }
+  #heading3{
+    color: red;
+  }
+  #canvas2{
+    background-color: #272727;
+  }
+  .colorSwitchTitle{
+    font-size: 400%;
+    height: 20%;
+    width: 70%;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    left: 15%;
+    animation-name: fntclr;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-family: 'Righteous', cursive;
+  }
+  .startPage{
+    width: 100%;
+    height: 100%;
+    background-color: #272727;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+  }
+  @keyframes fntclr {
+
+    0%{color:white;}
+    25%{color:#FF0181;}
+  	50%{color:#900DFF;}
+  	75%{color:#32DBF0;}
+    100%{color:#FAE100;}
+
+  }
+
+  #startGame{
+    height: 15%;
+    width: 70%;
+    background-color: #272727;
+    border-color: white;
+    border:solid white 6px;
+    font-size: 200%;
+    font-weight: 600;
+    position: absolute;
+    top: 75%;
+    left:15%;
+    border-radius: 15%;
+    color: white;
+
+  }
+
+  .touchPad{
+    opacity: 0;
+    z-index: -1;
+    height: 65%;
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    left: 0;
+  }
+
+
+}

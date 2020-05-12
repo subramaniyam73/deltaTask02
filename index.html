@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>deltaTask2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Fredoka+One&family=Geo&family=Orbitron:wght@800&family=Righteous&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <canvas id="canvas" ></canvas>
+
+    <div class="touchPad">
+
+    </div>
+    <div class="modeChooser">
+      <span class="mobileStyle" id="modeTitle">CHOOSE THE DIFFICULTY</span>
+      <button class="mobileStyle" type="button" id="easy" name="button">EASY</button>
+      <button class="mobileStyle" type="button" id="medium" name="button">MEDIUM</button>
+      <button class="mobileStyle" type="button" id="hard" name="button">HARD</button>
+    </div>
+    <div class="gameButtons">
+      <button class="mobileStyle" type="button" id="pause" name="button">PAUSE</button>
+      <button class="mobileStyle" type="button" id="resume" name="button">RESUME</button>
+      <button class="mobileStyle" type="button" id="newGame2" name="button">NEW GAME</button>
+      <div id="topScore">
+        <span class="mobileStyle" id="heading">TOP SCORE</span>
+        <span class="mobileStyle" id="value"></span>
+        <span class="mobileStyle" id="heading2">CURRENT SCORE</span>
+        <span class="mobileStyle" id="value2"></span>
+
+      </div>
+
+    </div>
+    <div class="resultsPage">
+      <div class="best3">
+        <span class="mobileStyle" id="heading3">BEST SCORES</span>
+        <span class="mobileStyle" id="v1"></span>
+        <span class="mobileStyle" id="v2"></span>
+        <span class="mobileStyle" id="v3"></span>
+        <span class="mobileStyle" id="v4"></span>
+        <span class="mobileStyle" id="v5"></span>
+
+      </div>
+      <button class="mobileStyle" type="button" id="newGame" name="button">NEW GAME</button>
+    </div>
+    <div class="startPage">
+      <div class="colorSwitchTitle">
+        COLOR SWITCH
+      </div>
+      <canvas id="canvas2"></canvas>
+      <button class="mobileStyle" type="button" id="startGame" name="button">START GAME</button>
+
+    </div>
+    <script type="text/javascript" src="index.js">
+
+    </script>
+    <script type="text/javascript" src="index2.js">
+
+    </script>
+  </body>
+</html>

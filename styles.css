@@ -5,7 +5,191 @@ canvas{
 body{
   text-align: center;
 }
+.player1Result{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+  background-color: #272727;
+  text-align: center;
+}
+.player2Result{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  opacity: 0;
+  z-index: -1;
+  background-color: #272727;
+  text-align: center;
 
+}
+#player1PowerUp{
+  width: 25%;
+  font-size: 250%;
+  height: 25%;
+  position: absolute;
+  left: 12.5%;
+  top: 37.5%;
+  color: green;
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  z-index: -1;
+
+}
+#player2PowerUp{
+  font-family: 'Orbitron', sans-serif;
+  width: 25%;
+  font-size: 250%;
+  height: 25%;
+  position: absolute;
+  left: 62.5%;
+  top: 37.5%;
+  color: green;
+  background-color: black;
+  z-index: -1;
+}
+#singlePlayerPowerUp{
+  font-family: 'Orbitron', sans-serif;
+  width: 50%;
+  height: 30%;
+  font-size: 350%;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  color: green;
+  background-color: black;
+  z-index: -1;
+
+}
+#player1ResultHeading,#player2ResultHeading{
+  width: 100%;
+  height: 15%;
+  font-size: 400%;
+  color: red;
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+
+}
+#player1Score,#player2Score{
+  width: 100%;
+  height: 15%;
+  color: white;
+  display: inline-block;
+  font-size: 400%;
+  position: absolute;
+  top: 48%;
+  left: 0;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+
+}
+#multiNewNew{
+  height: 10%;
+  width: 30%;
+  background-color: #272727;
+  border-color: white;
+  border:solid white 10px;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  top: 70%;
+  left:35%;
+  border-radius: 20%;
+  color: white;
+  opacity: 0;
+  z-index: -1;
+}
+.multiGameButtons{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+
+}
+#multiNew1,#multiNew2,#multiPause1,#multiPause2,#multiResume1,#multiResume2{
+  height: 5%;
+  width: 9%;
+  background-color: #272727;
+  border-color: white;
+  border:solid white 5px;
+  position: absolute;
+  font-size: 100%;
+  color: white;
+  font-weight: 500;
+  border-radius: 10%;
+}
+#multiPause1{
+  top: 0.5%;
+  left: 1.5%;
+}
+#multiResume1{
+  top: 6%;
+  left: 1.5%;
+}
+#multiNew1{
+  top: 11.5%;
+  left: 1.5%;
+  height: 10%;
+}
+#multiPause2{
+  top: 0.5%;
+  left: 51.5%;
+}
+#multiResume2{
+  top: 6%;
+  left: 51.5%;
+}
+#multiNew2{
+  top: 11.5%;
+  left: 51.5%;
+  height: 10%;
+
+}
+.topScore1{
+  width: 14%;
+  height: 40%;
+  position: absolute;
+  right: 50.5%;
+  top: 0.5%;
+
+}
+.topScore2{
+  width: 13%;
+  height: 40%;
+  position: absolute;
+  right: 0.5%;
+  top: 0.5%;
+
+
+}
+#heading11,#heading12,#heading21,#heading22{
+  float: left;
+  width: 100%;
+  height: 25%;
+  font-size: 200%;
+  color: red;
+  font-family: 'Righteous', cursive;
+}
+#value11,#value12,#value21,#value22{
+  float: left;
+  width: 100%;
+  height: 25%;
+  font-size: 200%;
+  color: white;
+  font-family: 'Righteous', cursive;
+}
 .touchPad{
   opacity: 0;
   z-index: -1;
@@ -98,9 +282,15 @@ body{
   100%{color:#FAE100;border-color: #FAE100;}
 }
 
-#easy:hover,#medium:hover,#hard:hover,#pause:hover,#resume:hover,#newGame:hover,#newGame2:hover,#startGame:hover
+#easy:hover,#medium:hover,#hard:hover,#pause:hover,#resume:hover,#newGame:hover,#newGame2:hover,#startGame:hover,#multiPlayer:hover,#multiNewNew:hover
 {
 	transform: scale(1.3);
+	animation-name:colorss;
+	animation-duration: 1s;
+	animation-iteration-count:infinite;
+}
+#multiNew2:hover,#multiNew1:hover,#multiPause1:hover,#multiPause2:hover,#multiResume1:hover,#multiResume2:hover{
+
 	animation-name:colorss;
 	animation-duration: 1s;
 	animation-iteration-count:infinite;
@@ -283,11 +473,25 @@ body{
   font-size: 40px;
   font-weight: 700;
   position: absolute;
-  top: 75%;
+  top: 70%;
   left:35%;
   border-radius: 20%;
   color: white;
 
+}
+#multiPlayer{
+  height: 10%;
+  width: 30%;
+  background-color: #272727;
+  border-color: white;
+  border:solid white 10px;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  top: 83%;
+  left:35%;
+  border-radius: 20%;
+  color: white;
 }
 button{
 font-family: 'Orbitron', sans-serif;
@@ -580,6 +784,10 @@ font-family: 'Orbitron', sans-serif;
     border-radius: 15%;
     color: white;
 
+  }
+  #multiPlayer{
+    z-index: -1;
+    opacity: 0;
   }
 
   .touchPad{

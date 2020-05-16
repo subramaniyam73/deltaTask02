@@ -2828,7 +2828,7 @@ else if(multiStatus==1)
     obs.update();
     staticDetail.draw();
     checkHighest();
-    changeBestScores();
+ 
     for(var j=0;j<obsArray.length;j++)
     {
       if(j%3==0)
@@ -2847,7 +2847,7 @@ else if(multiStatus==1)
     obs2.update();
     staticDetail2.draw();
     checkHighest2();
-    changeBestScores();
+
     for(var w=0;w<obsArray2.length;w++)
     {
       if(w%3==0)

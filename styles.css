@@ -29,41 +29,44 @@ body{
 
 }
 #player1PowerUp{
-  width: 25%;
+  width: 50%;
   font-size: 250%;
-  height: 25%;
+  height: 12%;
   position: absolute;
-  left: 12.5%;
-  top: 37.5%;
+  left: 0;
+  top: 5%;
   color: green;
   font-family: 'Orbitron', sans-serif;
   background-color: black;
   z-index: -1;
+  text-align: center;
 
 }
 #player2PowerUp{
   font-family: 'Orbitron', sans-serif;
-  width: 25%;
+  width: 50%;
   font-size: 250%;
-  height: 25%;
+  height: 12%;
   position: absolute;
-  left: 62.5%;
-  top: 37.5%;
+  left: 50%;
+  top: 5%;
   color: green;
   background-color: black;
   z-index: -1;
+  text-align: center;
 }
 #singlePlayerPowerUp{
   font-family: 'Orbitron', sans-serif;
-  width: 50%;
-  height: 30%;
+  width: 100%;
+  height: 15%;
   font-size: 350%;
   position: absolute;
-  top: 35%;
-  left: 25%;
+  top: 5%;
+  left: 0;
   color: green;
   background-color: black;
   z-index: -1;
+  text-align: center;
 
 }
 #player1ResultHeading,#player2ResultHeading{

@@ -412,12 +412,12 @@ function Obstacle2(x,y,radius){
       if(starCount2!==0&&starCount2%4==0&&starCount2%8!==0)
       {
         multiColorPowerUp=1;
-        document.querySelector("#player2PowerUp").style.zIndex=2;
+        document.querySelector("#player2PowerUp").style.zIndex=4;
         document.querySelector("#player2PowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#player2PowerUp").style.zIndex=3;
+          document.querySelector("#player2PowerUp").style.zIndex=4;
           document.querySelector("#player2PowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -425,12 +425,12 @@ function Obstacle2(x,y,radius){
       if(starCount2!==0&&starCount2%8==0)
       {
         speed=330;
-        document.querySelector("#player2PowerUp").style.zIndex=2;
+        document.querySelector("#player2PowerUp").style.zIndex=4;
         document.querySelector("#player2PowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#player2PowerUp").style.zIndex=3;
+          document.querySelector("#player2PowerUp").style.zIndex=4;
           document.querySelector("#player2PowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -552,11 +552,11 @@ function Obstacle2(x,y,radius){
       if(starCount2!==0&&starCount2%4==0&&starCount2%8!==0)
       {
         multiColorPowerUp=1;
-        document.querySelector("#player2PowerUp").style.zIndex=2;
+        document.querySelector("#player2PowerUp").style.zIndex=4;
         document.querySelector("#player2PowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
-          document.querySelector("#player2PowerUp").style.zIndex=3;
+          document.querySelector("#player2PowerUp").style.zIndex=4;
           document.querySelector("#player2PowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -565,12 +565,12 @@ function Obstacle2(x,y,radius){
       {
         slowPowerUp=speed;
         speed=330;
-        document.querySelector("#player2PowerUp").style.zIndex=2;
+        document.querySelector("#player2PowerUp").style.zIndex=4;
         document.querySelector("#player2PowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#player2PowerUp").style.zIndex=3;
+          document.querySelector("#player2PowerUp").style.zIndex=4;
           document.querySelector("#player2PowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -640,12 +640,12 @@ function Obstacle2(x,y,radius){
       if(starCount2!==0&&starCount2%4==0&&starCount2%8!==0)
       {
         multiColorPowerUp=1;
-        document.querySelector("#player2PowerUp").style.zIndex=2;
+        document.querySelector("#player2PowerUp").style.zIndex=4;
         document.querySelector("#player2PowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#player2PowerUp").style.zIndex=3;
+          document.querySelector("#player2PowerUp").style.zIndex=4;
           document.querySelector("#player2PowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -653,12 +653,12 @@ function Obstacle2(x,y,radius){
       if(starCount2!==0&&starCount2%8==0)
       {
         speed=330;
-        document.querySelector("#player2PowerUp").style.zIndex=2;
+        document.querySelector("#player2PowerUp").style.zIndex=4;
         document.querySelector("#player2PowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#player2PowerUp").style.zIndex=3;
+          document.querySelector("#player2PowerUp").style.zIndex=4;
           document.querySelector("#player2PowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -744,11 +744,11 @@ function Obstacle2(x,y,radius){
       if(starCount2!==0&&starCount2%4==0&&starCount2%8!==0)
       {
         multiColorPowerUp=1;
-        document.querySelector("#player2PowerUp").style.zIndex=2;
+        document.querySelector("#player2PowerUp").style.zIndex=4;
         document.querySelector("#player2PowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
-          document.querySelector("#player2PowerUp").style.zIndex=3;
+          document.querySelector("#player2PowerUp").style.zIndex=4;
           document.querySelector("#player2PowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -757,12 +757,12 @@ function Obstacle2(x,y,radius){
       {
         slowPowerUp=speed;
         speed=330;
-        document.querySelector("#player2PowerUp").style.zIndex=2;
+        document.querySelector("#player2PowerUp").style.zIndex=4;
         document.querySelector("#player2PowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#player2PowerUp").style.zIndex=3;
+          document.querySelector("#player2PowerUp").style.zIndex=4;
           document.querySelector("#player2PowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -843,11 +843,11 @@ function Obstacle2(x,y,radius){
       if(starCount2!==0&&starCount2%4==0&&starCount2%8!==0)
       {
         multiColorPowerUp=1;
-        document.querySelector("#player2PowerUp").style.zIndex=2;
+        document.querySelector("#player2PowerUp").style.zIndex=4;
         document.querySelector("#player2PowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
-          document.querySelector("#player2PowerUp").style.zIndex=3;
+          document.querySelector("#player2PowerUp").style.zIndex=4;
           document.querySelector("#player2PowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -855,12 +855,12 @@ function Obstacle2(x,y,radius){
       if(starCount2!==0&&starCount2%8==0)
       {
         speed=330;
-        document.querySelector("#player2PowerUp").style.zIndex=2;
+        document.querySelector("#player2PowerUp").style.zIndex=4;
         document.querySelector("#player2PowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#player2PowerUp").style.zIndex=3;
+          document.querySelector("#player2PowerUp").style.zIndex=4;
           document.querySelector("#player2PowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player2PowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -1278,12 +1278,14 @@ var gameBall2={
   change:0,
   color:colorArray[colors[0]],
   downMovement:3,
+  mechanism:0,
   update: function(){
     this.y+=this.dy;
-    this.change+=this.dy;
+    this.change+=this.mechanism;
     if(this.change<-20)
     {
       this.dy=2;
+      this.mechanism=2;
     }
     /*if(this.y>=800)
     {
@@ -1304,18 +1306,15 @@ var gameBall2={
       if(multiStatus==-1){endGame();}else{endGame2();}
     }
 
-    if(this.y<600&&this.y>300)
+    if(this.y>innerHeight*0.5)
     {
-      if(this.y<450)
-      min=600;
       if(this.y<min)
       {
 
-        //if(this.dy==2)
-        //this.downMovement=0;
-        //else
-          this.downMovement=2.3;
-        change=min-this.y;
+        if(this.mechanism==2)
+        this.downMovement=0;
+        else
+        this.downMovement=3;
         colorCircle2.y+=this.downMovement;
         obs2.y+=this.downMovement;
         staticDetail2.y+=this.downMovement;
@@ -1330,16 +1329,11 @@ var gameBall2={
 
     }
     else{
-      if(this.y<450)
-      min=600;
-      if(this.y<min)
-      {
 
-        //if(this.dy==2)
-        //this.downMovement=0;
-        //else
-          this.downMovement=2.3;
-        change=min-this.y;
+        if(this.mechanism==2)
+        this.downMovement=0;
+        else
+        this.downMovement=3;
         colorCircle2.y+=this.downMovement;
         obs2.y+=this.downMovement;
         staticDetail2.y+=this.downMovement;
@@ -1349,7 +1343,7 @@ var gameBall2={
         }
         min=this.y;
 
-    }
+
   }
 
 
@@ -1361,10 +1355,16 @@ var gameBall2={
   },
 
   draw: function(){
+    if(multiColorPowerUp==-1){
     c.beginPath();
     c.arc(this.x,this.y,this.radius,0,Math.PI*2,true);
     c.fillStyle=this.color;
     c.fill();
+    }
+    else
+    {
+      drawStar(this.x,this.y,10,this.radius+6,this.radius+3);
+    }
 
   }
 };
@@ -1565,11 +1565,11 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%4==0&&starCount%8!==0&&multiStatus==1)
       {
         multiColorPowerUp=1;
-        document.querySelector("#player1PowerUp").style.zIndex=2;
+        document.querySelector("#player1PowerUp").style.zIndex=4;
         document.querySelector("#player1PowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
-          document.querySelector("#player1PowerUp").style.zIndex=3;
+          document.querySelector("#player1PowerUp").style.zIndex=4;
           document.querySelector("#player1PowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -1577,12 +1577,12 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%8==0&&multiStatus==1)
       {
         speed=330;
-        document.querySelector("#player1PowerUp").style.zIndex=2;
+        document.querySelector("#player1PowerUp").style.zIndex=4;
         document.querySelector("#player1PowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#player1PowerUp").style.zIndex=3;
+          document.querySelector("#player1PowerUp").style.zIndex=4;
           document.querySelector("#player1PowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -1590,11 +1590,11 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%4==0&&starCount%8!==0&&multiStatus==-1)
       {
         multiColorPowerUp=1;
-        document.querySelector("#singlePlayerPowerUp").style.zIndex=2;
+        document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
         document.querySelector("#singlePlayerPowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
-          document.querySelector("#singlePlayerPowerUp").style.zIndex=3;
+          document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
           document.querySelector("#singlePlayerPowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -1602,12 +1602,12 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%8==0&&multiStatus==-1)
       {
         speed=330;
-        document.querySelector("#singlePlayerPowerUp").style.zIndex=2;
+        document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
         document.querySelector("#singlePlayerPowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#singlePlayerPowerUp").style.zIndex=3;
+          document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
           document.querySelector("#singlePlayerPowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -1736,11 +1736,11 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%4==0&&starCount%8!==0&&multiStatus==1)
       {
         multiColorPowerUp=1;
-        document.querySelector("#player1PowerUp").style.zIndex=2;
+        document.querySelector("#player1PowerUp").style.zIndex=4;
         document.querySelector("#player1PowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
-          document.querySelector("#player1PowerUp").style.zIndex=3;
+          document.querySelector("#player1PowerUp").style.zIndex=4;
           document.querySelector("#player1PowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -1748,12 +1748,12 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%8==0&&multiStatus==1)
       {
         speed=330;
-        document.querySelector("#player1PowerUp").style.zIndex=2;
+        document.querySelector("#player1PowerUp").style.zIndex=4;
         document.querySelector("#player1PowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#player1PowerUp").style.zIndex=3;
+          document.querySelector("#player1PowerUp").style.zIndex=4;
           document.querySelector("#player1PowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -1761,11 +1761,11 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%4==0&&starCount%8!==0&&multiStatus==-1)
       {
         multiColorPowerUp=1;
-        document.querySelector("#singlePlayerPowerUp").style.zIndex=2;
+        document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
         document.querySelector("#singlePlayerPowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
-          document.querySelector("#singlePlayerPowerUp").style.zIndex=3;
+          document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
           document.querySelector("#singlePlayerPowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -1773,12 +1773,12 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%8==0&&multiStatus==-1)
       {
         speed=330;
-        document.querySelector("#singlePlayerPowerUp").style.zIndex=2;
+        document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
         document.querySelector("#singlePlayerPowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#singlePlayerPowerUp").style.zIndex=3;
+          document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
           document.querySelector("#singlePlayerPowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -1856,11 +1856,11 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%4==0&&starCount%8!==0&&multiStatus==1)
       {
         multiColorPowerUp=1;
-        document.querySelector("#player1PowerUp").style.zIndex=2;
+        document.querySelector("#player1PowerUp").style.zIndex=4;
         document.querySelector("#player1PowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
-          document.querySelector("#player1PowerUp").style.zIndex=3;
+          document.querySelector("#player1PowerUp").style.zIndex=4;
           document.querySelector("#player1PowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -1868,12 +1868,12 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%8==0&&multiStatus==1)
       {
         speed=330;
-        document.querySelector("#player1PowerUp").style.zIndex=2;
+        document.querySelector("#player1PowerUp").style.zIndex=4;
         document.querySelector("#player1PowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#player1PowerUp").style.zIndex=3;
+          document.querySelector("#player1PowerUp").style.zIndex=4;
           document.querySelector("#player1PowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -1881,11 +1881,11 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%4==0&&starCount%8!==0&&multiStatus==-1)
       {
         multiColorPowerUp=1;
-        document.querySelector("#singlePlayerPowerUp").style.zIndex=2;
+        document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
         document.querySelector("#singlePlayerPowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
-          document.querySelector("#singlePlayerPowerUp").style.zIndex=3;
+          document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
           document.querySelector("#singlePlayerPowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -1893,12 +1893,12 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%8==0&&multiStatus==-1)
       {
         speed=330;
-        document.querySelector("#singlePlayerPowerUp").style.zIndex=2;
+        document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
         document.querySelector("#singlePlayerPowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#singlePlayerPowerUp").style.zIndex=3;
+          document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
           document.querySelector("#singlePlayerPowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -1993,11 +1993,11 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%4==0&&starCount%8!==0&&multiStatus==1)
       {
         multiColorPowerUp=1;
-        document.querySelector("#player1PowerUp").style.zIndex=2;
+        document.querySelector("#player1PowerUp").style.zIndex=4;
         document.querySelector("#player1PowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
-          document.querySelector("#player1PowerUp").style.zIndex=3;
+          document.querySelector("#player1PowerUp").style.zIndex=4;
           document.querySelector("#player1PowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -2005,12 +2005,12 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%8==0&&multiStatus==1)
       {
         speed=330;
-        document.querySelector("#player1PowerUp").style.zIndex=2;
+        document.querySelector("#player1PowerUp").style.zIndex=4;
         document.querySelector("#player1PowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#player1PowerUp").style.zIndex=3;
+          document.querySelector("#player1PowerUp").style.zIndex=4;
           document.querySelector("#player1PowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -2018,11 +2018,11 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%4==0&&starCount%8!==0&&multiStatus==-1)
       {
         multiColorPowerUp=1;
-        document.querySelector("#singlePlayerPowerUp").style.zIndex=2;
+        document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
         document.querySelector("#singlePlayerPowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
-          document.querySelector("#singlePlayerPowerUp").style.zIndex=3;
+          document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
           document.querySelector("#singlePlayerPowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -2030,12 +2030,12 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%8==0&&multiStatus==-1)
       {
         speed=330;
-        document.querySelector("#singlePlayerPowerUp").style.zIndex=2;
+        document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
         document.querySelector("#singlePlayerPowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#singlePlayerPowerUp").style.zIndex=3;
+          document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
           document.querySelector("#singlePlayerPowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -2124,11 +2124,11 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%4==0&&starCount%8!==0&&multiStatus==1)
       {
         multiColorPowerUp=1;
-        document.querySelector("#player1PowerUp").style.zIndex=2;
+        document.querySelector("#player1PowerUp").style.zIndex=4;
         document.querySelector("#player1PowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
-          document.querySelector("#player1PowerUp").style.zIndex=3;
+          document.querySelector("#player1PowerUp").style.zIndex=4;
           document.querySelector("#player1PowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -2136,12 +2136,12 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%8==0&&multiStatus==1)
       {
         speed=330;
-        document.querySelector("#player1PowerUp").style.zIndex=2;
+        document.querySelector("#player1PowerUp").style.zIndex=4;
         document.querySelector("#player1PowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#player1PowerUp").style.zIndex=3;
+          document.querySelector("#player1PowerUp").style.zIndex=4;
           document.querySelector("#player1PowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#player1PowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -2149,11 +2149,11 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%4==0&&starCount%8!==0&&multiStatus==-1)
       {
         multiColorPowerUp=1;
-        document.querySelector("#singlePlayerPowerUp").style.zIndex=2;
+        document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
         document.querySelector("#singlePlayerPowerUp").textContent="MULTICOLOR POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
-          document.querySelector("#singlePlayerPowerUp").style.zIndex=3;
+          document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
           document.querySelector("#singlePlayerPowerUp").textContent="MULTICOLOR POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;multiColorPowerUp=-1;},1500);
         },5000);
@@ -2161,12 +2161,12 @@ function Obstacle(x,y,radius){
       if(starCount!==0&&starCount%8==0&&multiStatus==-1)
       {
         speed=330;
-        document.querySelector("#singlePlayerPowerUp").style.zIndex=2;
+        document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
         document.querySelector("#singlePlayerPowerUp").textContent="SLOW ROTATION POWERUP ACTIVATED !";
         setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;},1500);
         setTimeout(function(){
 
-          document.querySelector("#singlePlayerPowerUp").style.zIndex=3;
+          document.querySelector("#singlePlayerPowerUp").style.zIndex=4;
           document.querySelector("#singlePlayerPowerUp").textContent="SLOW ROTATION POWERUP DEACTIVATED !";
           setTimeout(function(){document.querySelector("#singlePlayerPowerUp").style.zIndex=-1;speed=slowPowerUp;},1500);
         },5000);
@@ -2598,14 +2598,16 @@ var gameBall={
   dy:0,
   radius:10,
   change:0,
+  mechanism:0,
   color:colorArray[colors[0]],
   downMovement:3,
   update: function(){
     this.y+=this.dy;
-    this.change+=this.dy;
+    this.change+=this.mechanism;
     if(this.change<-20)
     {
       this.dy=2;
+      this.mechanism=2;
     }
     /*if(this.y>=800)
     {
@@ -2626,18 +2628,15 @@ var gameBall={
       if(multiStatus==-1){endGame();}else{endGame2();}
     }
 
-    if(this.y<600&&this.y>300)
+    if(this.y>innerHeight*0.5)
     {
-      if(this.y<450)
-      min=600;
       if(this.y<min)
       {
 
-        //if(this.dy==2)
-        //this.downMovement=0;
-        //else
-          this.downMovement=2.3;
-        change=min-this.y;
+        if(this.mechanism==2)
+        this.downMovement=0;
+        else
+        this.downMovement=3;
         colorCircle.y+=this.downMovement;
         obs.y+=this.downMovement;
         staticDetail.y+=this.downMovement;
@@ -2652,16 +2651,11 @@ var gameBall={
 
     }
     else{
-      if(this.y<450)
-      min=600;
-      if(this.y<min)
-      {
 
-        //if(this.dy==2)
-        //this.downMovement=0;
-        //else
-          this.downMovement=2.3;
-        change=min-this.y;
+        if(this.mechanism==2)
+        this.downMovement=0;
+        else
+        this.downMovement=3;
         colorCircle.y+=this.downMovement;
         obs.y+=this.downMovement;
         staticDetail.y+=this.downMovement;
@@ -2671,7 +2665,7 @@ var gameBall={
         }
         min=this.y;
 
-    }
+
   }
 
 
@@ -2683,10 +2677,18 @@ var gameBall={
   },
 
   draw: function(){
+    if(multiColorPowerUp==-1){
     c.beginPath();
     c.arc(this.x,this.y,this.radius,0,Math.PI*2,true);
     c.fillStyle=this.color;
     c.fill();
+    }
+    else
+    {
+      drawStar(this.x,this.y,10,this.radius+6,this.radius+3);
+    }
+
+
 
   }
 };
@@ -2828,7 +2830,7 @@ else if(multiStatus==1)
     obs.update();
     staticDetail.draw();
     checkHighest();
- 
+    changeBestScores();
     for(var j=0;j<obsArray.length;j++)
     {
       if(j%3==0)
@@ -2847,7 +2849,7 @@ else if(multiStatus==1)
     obs2.update();
     staticDetail2.draw();
     checkHighest2();
-
+    changeBestScores();
     for(var w=0;w<obsArray2.length;w++)
     {
       if(w%3==0)
@@ -2868,17 +2870,49 @@ window.addEventListener("keydown",function(event){
   if(event.key==="b"&&gameStatus==1)
   {
   jump.play();
+  if(gameBall.y>innerHeight*0.5){
   gameBall.dy=-2;
+  gameBall.mechanism=-2;
   gameBall.change=0;
   gameBall.y+=-15;
+  }
+  else
+  {
+    gameBall.mechanism=-2;
+    gameBall.change=0;
+    gameBall.dy=0;
+    colorCircle.y+=7;
+    obs.y+=7;
+    staticDetail.y+=7;
+    for(var j=0;j<obsArray.length;j++)
+    {
+      obsArray[j].y+=7;
+    }
+  }
   }
 
   if(event.key==="ArrowUp"&&gameStatus2==1)
   {
     jump.play();
+    if(gameBall2.y>innerHeight*0.5){
     gameBall2.dy=-2;
+    gameBall2.mechanism=-2;
     gameBall2.change=0;
     gameBall2.y+=-15;
+    }
+    else
+    {
+      gameBall2.mechanism=-2;
+      gameBall2.change=0;
+      gameBall2.dy=0;
+      colorCircle2.y+=7;
+      obs2.y+=7;
+      staticDetail2.y+=7;
+      for(var j=0;j<obsArray2.length;j++)
+      {
+        obsArray2[j].y+=7;
+      }
+    }
   }
 
 
@@ -3184,7 +3218,10 @@ function drawStar(cx, cy, spikes, outerRadius, innerRadius) {
     c.lineWidth=5;
     c.strokeStyle='white';
     c.stroke();
+    if(multiColorPowerUp==-1)
     c.fillStyle='white';
+    else
+    c.fillStyle="#001EBA";
     c.fill();
 
 }

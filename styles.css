@@ -802,6 +802,10 @@ font-family: 'Orbitron', sans-serif;
     top: 35%;
     left: 0;
   }
+   
+  #singlePlayerPowerUp{
+    font-size: 200%;
+  }
 
 
 }

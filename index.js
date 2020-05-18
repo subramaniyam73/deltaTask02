@@ -342,9 +342,25 @@ if(screen.width<1024)
     if(gameStatus==1)
     {
       jump.play();
+      if(gameBall.y>innerHeight*0.5){
       gameBall.dy=-2;
+      gameBall.mechanism=-2;
       gameBall.change=0;
       gameBall.y+=-15;
+      }
+      else
+      {
+        gameBall.mechanism=-2;
+        gameBall.change=0;
+        gameBall.dy=0;
+        colorCircle.y+=7;
+        obs.y+=7;
+        staticDetail.y+=7;
+        for(var j=0;j<obsArray.length;j++)
+        {
+          obsArray[j].y+=7;
+        }
+      }
 
     }
   },false);

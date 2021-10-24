@@ -1,7 +1,7 @@
-var canvas2=document.querySelector("#canvas2");
-var c2=canvas2.getContext("2d");
-canvas2.width=innerWidth;
-canvas2.height=innerHeight;
+var canvasTwo=document.querySelector("#canvas2");
+var c2=canvasTwo.getContext("2d");
+canvasTwo.width=innerWidth;
+canvasTwo.height=innerHeight;
 
 var random2=Math.random()*Math.PI*2;
 

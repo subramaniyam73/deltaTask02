@@ -6,7 +6,7 @@ canvas2.height=innerHeight;
 var random2=Math.random()*Math.PI*2;
 
 
-var animateCircle={
+var animate_circle={
   x:innerWidth*0.5,
   y:innerHeight*0.5,
   radius:75,
@@ -50,6 +50,6 @@ function animate2()
 {
   c2.clearRect(0,0,innerWidth,innerHeight);
   requestAnimationFrame(animate2);
-  animateCircle.update();
+  animate_circle.update();
 }
 animate2();

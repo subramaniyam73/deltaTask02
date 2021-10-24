@@ -6,7 +6,7 @@ var colorArray=["#FAE100","#900DFF","#FF0181","#32DBF0"];
 var af,obs,obs2,colorFinals=[],gameStatus=-1,gameStatus2=-1;
 var flag=1,min=innerHeight,min2=innerHeight,change,m,n,p;
 var scoreMin=600,score=0,scoreChange,randomAngle,randomAngle2;var temporaryColor,temporaryColor2,pauseStatus=-1;
-var obsArray=[],obsArray2=[],starCount=0,starCount2=0,previousValue,previousValue2;
+var obsArray=[],obsArrayTwo=[],starCount=0,starCount2=0,previousValue,previousValue2;
 var colors=[],colors2=[],colorsCurrent,colorsCurrent2;
 var displayValue;      var checkCondition2;
 
@@ -535,7 +535,7 @@ function Obstacle2(x,y,radius){
       {
         if(this.starCount!==1)
         {
-        obsArray2.push(new Obstacle2(innerWidth*0.75,0,100));
+        obsArrayTwo.push(new Obstacle2(innerWidth*0.75,0,100));
         this.radius=0;
         this.radius2=0;
         }
@@ -623,7 +623,7 @@ function Obstacle2(x,y,radius){
       {
         if(this.radius==100)
         {
-        obsArray2.push(new Obstacle2(innerWidth*0.75,0,100));
+        obsArrayTwo.push(new Obstacle2(innerWidth*0.75,0,100));
         this.radius=0;
         }
       }
@@ -731,7 +731,7 @@ function Obstacle2(x,y,radius){
       {
         if(this.starCount!==1)
         {
-        obsArray2.push(new Obstacle2(innerWidth*0.75,0,100));
+        obsArrayTwo.push(new Obstacle2(innerWidth*0.75,0,100));
         this.radius=0;
         }
       }
@@ -833,7 +833,7 @@ function Obstacle2(x,y,radius){
     {
       if(this.starCount!==1)
       {
-      obsArray2.push(new Obstacle2(innerWidth*0.75,0,100));
+      obsArrayTwo.push(new Obstacle2(innerWidth*0.75,0,100));
       this.radius=0;
       }
     }
@@ -927,7 +927,7 @@ function Obstacle2(x,y,radius){
     {
       if(this.starCount!==1)
       {
-      obsArray2.push(new Obstacle2(innerWidth*0.75,0,100));
+      obsArrayTwo.push(new Obstacle2(innerWidth*0.75,0,100));
       this.radius=0;
       }
     }
@@ -1334,9 +1334,9 @@ var gameBall2={
         colorCircle2.y+=this.downMovement;
         obs2.y+=this.downMovement;
         staticDetail2.y+=this.downMovement;
-        for(var j=0;j<obsArray2.length;j++)
+        for(var j=0;j<obsArrayTwo.length;j++)
         {
-          obsArray2[j].y+=this.downMovement;
+          obsArrayTwo[j].y+=this.downMovement;
         }
         min=this.y;
 
@@ -1353,9 +1353,9 @@ var gameBall2={
         colorCircle2.y+=this.downMovement;
         obs2.y+=this.downMovement;
         staticDetail2.y+=this.downMovement;
-        for(var j=0;j<obsArray2.length;j++)
+        for(var j=0;j<obsArrayTwo.length;j++)
         {
-          obsArray2[j].y+=this.downMovement;
+          obsArrayTwo[j].y+=this.downMovement;
         }
         min=this.y;
 
@@ -1443,7 +1443,7 @@ var colorCircle2={
     {
       if(this.radius==100)
       {
-      obsArray2.push(new Obstacle2(innerWidth*0.75,0,100));
+      obsArrayTwo.push(new Obstacle2(innerWidth*0.75,0,100));
       this.radius=0;
 
       }
@@ -2866,14 +2866,14 @@ else if(multiStatus==1)
     staticDetail2.draw();
     checkHighest2();
     changeBestScores();
-    for(var w=0;w<obsArray2.length;w++)
+    for(var w=0;w<obsArrayTwo.length;w++)
     {
       if(w%3==0)
-      obsArray2[w].update5();
+      obsArrayTwo[w].update5();
       else if(w%3==1)
-      obsArray2[w].update3();
+      obsArrayTwo[w].update3();
       else
-      obsArray2[w].update();
+      obsArrayTwo[w].update();
     }
   }
 }
@@ -2924,9 +2924,9 @@ window.addEventListener("keydown",function(event){
       colorCircle2.y+=7;
       obs2.y+=7;
       staticDetail2.y+=7;
-      for(var j=0;j<obsArray2.length;j++)
+      for(var j=0;j<obsArrayTwo.length;j++)
       {
-        obsArray2[j].y+=7;
+        obsArrayTwo[j].y+=7;
       }
     }
   }
@@ -3042,7 +3042,7 @@ function restart()
   previousValue=gameBall.color;previousValue2=gameBall2.color;multiColorPowerUp=-1;
   randomAngle=Math.random()*(Math.PI*2);
   gameStatus=1;gameStatus2=-1;multiStatus=-1;
-  obsArray=[];obsArray2=[];
+  obsArray=[];obsArrayTwo=[];
   starCount=0;starCount2=0;
   min=innerHeight;min2=innerHeight;
   obs.colorSwitchStatus=-1;

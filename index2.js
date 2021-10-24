@@ -3,17 +3,17 @@ var c2=canvas2.getContext("2d");
 canvas2.width=innerWidth;
 canvas2.height=innerHeight;
 
-var random2=Math.random()*Math.PI*2;
+var randomTwo=Math.random()*Math.PI*2;
 
 
 var animateCircle={
   x:innerWidth*0.5,
   y:innerHeight*0.5,
   radius:75,
-  angle1:random2,
-  angle2:random2+Math.PI*0.5,
-  angle3:random2+Math.PI*1,
-  angle4:random2+Math.PI*1.5,
+  angle1:randomTwo,
+  angle2:randomTwo+Math.PI*0.5,
+  angle3:randomTwo+Math.PI*1,
+  angle4:randomTwo+Math.PI*1.5,
   update: function(){
     this.angle1+=(Math.PI*2)/250;
     this.angle2+=(Math.PI*2)/250;
